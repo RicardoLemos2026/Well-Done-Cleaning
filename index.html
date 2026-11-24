@@ -171,6 +171,15 @@ footer{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center}
     <div class="bars" id="hBars"></div>
   </div>
 
+  <h2>Acompanhamento semanal 2027 <small>semanas de domingo a sábado · meta da semana proporcional aos dias</small></h2>
+  <div class="chips" id="wkChips"></div>
+  <div class="card" style="padding:0;overflow-x:auto">
+    <div style="padding:16px 18px 6px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px">
+      <h3 id="wkTitle" style="margin:0"></h3><span id="wkStatus" class="tag prj"></span>
+    </div>
+    <table class="full" id="wkTbl" style="min-width:900px"></table>
+  </div>
+
   <h2>Escada de metas 2027 <small>valores anuais e média mensal necessária</small></h2>
   <div class="grid g4" id="tiers"></div>
 
@@ -241,181 +250,181 @@ const DATA = {
  "meses": [
   {
    "mes": "Janeiro",
-   "f25": 34332.0,
-   "f26": 30046.0,
+   "f25": 34332,
+   "f26": 30046,
    "base": 30046,
-   "proj26": 30046,
+   "proj26": 40320.71447545603,
    "origem": "Real",
    "metas": [
     39059.8,
-    42965.78,
-    47262.358,
-    51988.5938
+    42965.780000000006,
+    47262.35800000001,
+    51988.59380000001
    ],
    "real27": null
   },
   {
    "mes": "Fevereiro",
    "f25": 25813.5,
-   "f26": 30150.0,
+   "f26": 30150,
    "base": 30150,
-   "proj26": 30150,
+   "proj26": 30316.28693674077,
    "origem": "Real",
    "metas": [
     39195,
     43114.5,
-    47425.95,
-    52168.545
+    47425.950000000004,
+    52168.545000000006
    ],
    "real27": null
   },
   {
    "mes": "Março",
-   "f25": 28871.0,
-   "f26": 36646.0,
+   "f25": 28871,
+   "f26": 36646,
    "base": 36646,
-   "proj26": 36646,
+   "proj26": 33907.123022861786,
    "origem": "Real",
    "metas": [
     47639.8,
-    52403.78,
-    57644.158,
-    63408.5738
+    52403.780000000006,
+    57644.15800000001,
+    63408.57380000002
    ],
    "real27": null
   },
   {
    "mes": "Abril",
-   "f25": 24351.0,
+   "f25": 24351,
    "f26": 32808.5,
    "base": 32808.5,
-   "proj26": 32808.5,
+   "proj26": 28598.675235693514,
    "origem": "Real",
    "metas": [
     42651.05,
-    46916.155,
-    51607.7705,
-    56768.54755
+    46916.155000000006,
+    51607.77050000001,
+    56768.54755000002
    ],
    "real27": null
   },
   {
    "mes": "Maio",
    "f25": 33879.25,
-   "f26": 35596.0,
+   "f26": 35596,
    "base": 35596,
-   "proj26": 35596,
+   "proj26": 39788.98887022584,
    "origem": "Real",
    "metas": [
     46274.8,
-    50902.28,
-    55992.508,
-    61591.7588
+    50902.280000000006,
+    55992.50800000001,
+    61591.75880000002
    ],
    "real27": null
   },
   {
    "mes": "Junho",
-   "f25": 33034.0,
-   "f26": 36390.0,
+   "f25": 33034,
+   "f26": 36390,
    "base": 36390,
-   "proj26": 36390,
+   "proj26": 38796.29738967186,
    "origem": "Real",
    "metas": [
     47307,
-    52037.7,
-    57241.47,
-    62965.617
+    52037.700000000004,
+    57241.47000000001,
+    62965.61700000001
    ],
    "real27": null
   },
   {
    "mes": "Julho",
-   "f25": 30374.0,
-   "f26": 35681.0,
+   "f25": 30374,
+   "f26": 35681,
    "base": 35681,
-   "proj26": 35681,
+   "proj26": 35672.299355630355,
    "origem": "Real",
    "metas": [
     46385.3,
-    51023.83,
-    56126.213,
-    61738.8343
+    51023.83000000001,
+    56126.21300000002,
+    61738.834300000024
    ],
    "real27": null
   },
   {
    "mes": "Agosto",
-   "f25": 29869.0,
+   "f25": 29869,
    "f26": 34990.25,
    "base": 34990.25,
-   "proj26": 34990.25,
+   "proj26": 35079.209503302925,
    "origem": "Real",
    "metas": [
-    45487.325,
-    50036.0575,
-    55039.66325,
-    60543.62958
+    45487.325000000004,
+    50036.05750000001,
+    55039.66325000001,
+    60543.62957500002
    ],
    "real27": null
   },
   {
    "mes": "Setembro",
-   "f25": 28861.0,
-   "f26": 42806.0,
+   "f25": 28861,
+   "f26": 42806,
    "base": 42806,
-   "proj26": 42806,
+   "proj26": 33895.37866935036,
    "origem": "Real",
    "metas": [
     55647.8,
-    61212.58,
-    67333.838,
-    74067.2218
+    61212.58000000001,
+    67333.83800000002,
+    74067.22180000003
    ],
    "real27": null
   },
   {
    "mes": "Outubro",
-   "f25": 29706.0,
-   "f26": 36149.0,
+   "f25": 29706,
+   "f26": 36149,
    "base": 36149,
-   "proj26": 36149,
+   "proj26": 34887.776541066545,
    "origem": "Real",
    "metas": [
-    46993.7,
-    51693.07,
-    56862.377,
-    62548.6147
+    46993.700000000004,
+    51693.07000000001,
+    56862.377000000015,
+    62548.61470000002
    ],
    "real27": null
   },
   {
    "mes": "Novembro",
-   "f25": 29428.0,
+   "f25": 29428,
    "f26": null,
-   "base": 34561.28351,
-   "proj26": 34561.28351,
+   "base": 34561.283513448674,
+   "proj26": 34561.283513448674,
    "origem": "Projetado",
    "metas": [
-    44929.66857,
-    49422.63542,
-    54364.89897,
-    59801.38886
+    44929.66856748328,
+    49422.63542423161,
+    54364.89896665477,
+    59801.38886332025
    ],
    "real27": null
   },
   {
    "mes": "Dezembro",
-   "f25": 35886.0,
+   "f25": 35886,
    "f26": null,
-   "base": 42145.78701,
-   "proj26": 42145.78701,
+   "base": 42145.7870111329,
+   "proj26": 42145.7870111329,
    "origem": "Projetado",
    "metas": [
-    54789.52311,
-    60268.47543,
-    66295.32297,
-    72924.85527
+    54789.52311447277,
+    60268.475425920056,
+    66295.32296851206,
+    72924.85526536328
    ],
    "real27": null
   }
@@ -428,17 +437,17 @@ const DATA = {
     {
      "ini": "2026-11-01",
      "fim": "2026-11-07",
-     "valor": null
+     "valor": 8508
     },
     {
      "ini": "2026-11-08",
      "fim": "2026-11-14",
-     "valor": null
+     "valor": 8382.5
     },
     {
      "ini": "2026-11-15",
      "fim": "2026-11-21",
-     "valor": null
+     "valor": 7893
     },
     {
      "ini": "2026-11-22",
@@ -483,6 +492,347 @@ const DATA = {
     }
    ]
   }
+ ],
+ "semanas27": [
+  [
+   {
+    "ini": "2027-01-01",
+    "fim": "2027-01-02",
+    "valor": null
+   },
+   {
+    "ini": "2027-01-03",
+    "fim": "2027-01-09",
+    "valor": null
+   },
+   {
+    "ini": "2027-01-10",
+    "fim": "2027-01-16",
+    "valor": null
+   },
+   {
+    "ini": "2027-01-17",
+    "fim": "2027-01-23",
+    "valor": null
+   },
+   {
+    "ini": "2027-01-24",
+    "fim": "2027-01-30",
+    "valor": null
+   },
+   {
+    "ini": "2027-01-31",
+    "fim": "2027-01-31",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-02-01",
+    "fim": "2027-02-06",
+    "valor": null
+   },
+   {
+    "ini": "2027-02-07",
+    "fim": "2027-02-13",
+    "valor": null
+   },
+   {
+    "ini": "2027-02-14",
+    "fim": "2027-02-20",
+    "valor": null
+   },
+   {
+    "ini": "2027-02-21",
+    "fim": "2027-02-27",
+    "valor": null
+   },
+   {
+    "ini": "2027-02-28",
+    "fim": "2027-02-28",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-03-01",
+    "fim": "2027-03-06",
+    "valor": null
+   },
+   {
+    "ini": "2027-03-07",
+    "fim": "2027-03-13",
+    "valor": null
+   },
+   {
+    "ini": "2027-03-14",
+    "fim": "2027-03-20",
+    "valor": null
+   },
+   {
+    "ini": "2027-03-21",
+    "fim": "2027-03-27",
+    "valor": null
+   },
+   {
+    "ini": "2027-03-28",
+    "fim": "2027-03-31",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-04-01",
+    "fim": "2027-04-03",
+    "valor": null
+   },
+   {
+    "ini": "2027-04-04",
+    "fim": "2027-04-10",
+    "valor": null
+   },
+   {
+    "ini": "2027-04-11",
+    "fim": "2027-04-17",
+    "valor": null
+   },
+   {
+    "ini": "2027-04-18",
+    "fim": "2027-04-24",
+    "valor": null
+   },
+   {
+    "ini": "2027-04-25",
+    "fim": "2027-04-30",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-05-01",
+    "fim": "2027-05-01",
+    "valor": null
+   },
+   {
+    "ini": "2027-05-02",
+    "fim": "2027-05-08",
+    "valor": null
+   },
+   {
+    "ini": "2027-05-09",
+    "fim": "2027-05-15",
+    "valor": null
+   },
+   {
+    "ini": "2027-05-16",
+    "fim": "2027-05-22",
+    "valor": null
+   },
+   {
+    "ini": "2027-05-23",
+    "fim": "2027-05-29",
+    "valor": null
+   },
+   {
+    "ini": "2027-05-30",
+    "fim": "2027-05-31",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-06-01",
+    "fim": "2027-06-05",
+    "valor": null
+   },
+   {
+    "ini": "2027-06-06",
+    "fim": "2027-06-12",
+    "valor": null
+   },
+   {
+    "ini": "2027-06-13",
+    "fim": "2027-06-19",
+    "valor": null
+   },
+   {
+    "ini": "2027-06-20",
+    "fim": "2027-06-26",
+    "valor": null
+   },
+   {
+    "ini": "2027-06-27",
+    "fim": "2027-06-30",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-07-01",
+    "fim": "2027-07-03",
+    "valor": null
+   },
+   {
+    "ini": "2027-07-04",
+    "fim": "2027-07-10",
+    "valor": null
+   },
+   {
+    "ini": "2027-07-11",
+    "fim": "2027-07-17",
+    "valor": null
+   },
+   {
+    "ini": "2027-07-18",
+    "fim": "2027-07-24",
+    "valor": null
+   },
+   {
+    "ini": "2027-07-25",
+    "fim": "2027-07-31",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-08-01",
+    "fim": "2027-08-07",
+    "valor": null
+   },
+   {
+    "ini": "2027-08-08",
+    "fim": "2027-08-14",
+    "valor": null
+   },
+   {
+    "ini": "2027-08-15",
+    "fim": "2027-08-21",
+    "valor": null
+   },
+   {
+    "ini": "2027-08-22",
+    "fim": "2027-08-28",
+    "valor": null
+   },
+   {
+    "ini": "2027-08-29",
+    "fim": "2027-08-31",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-09-01",
+    "fim": "2027-09-04",
+    "valor": null
+   },
+   {
+    "ini": "2027-09-05",
+    "fim": "2027-09-11",
+    "valor": null
+   },
+   {
+    "ini": "2027-09-12",
+    "fim": "2027-09-18",
+    "valor": null
+   },
+   {
+    "ini": "2027-09-19",
+    "fim": "2027-09-25",
+    "valor": null
+   },
+   {
+    "ini": "2027-09-26",
+    "fim": "2027-09-30",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-10-01",
+    "fim": "2027-10-02",
+    "valor": null
+   },
+   {
+    "ini": "2027-10-03",
+    "fim": "2027-10-09",
+    "valor": null
+   },
+   {
+    "ini": "2027-10-10",
+    "fim": "2027-10-16",
+    "valor": null
+   },
+   {
+    "ini": "2027-10-17",
+    "fim": "2027-10-23",
+    "valor": null
+   },
+   {
+    "ini": "2027-10-24",
+    "fim": "2027-10-30",
+    "valor": null
+   },
+   {
+    "ini": "2027-10-31",
+    "fim": "2027-10-31",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-11-01",
+    "fim": "2027-11-06",
+    "valor": null
+   },
+   {
+    "ini": "2027-11-07",
+    "fim": "2027-11-13",
+    "valor": null
+   },
+   {
+    "ini": "2027-11-14",
+    "fim": "2027-11-20",
+    "valor": null
+   },
+   {
+    "ini": "2027-11-21",
+    "fim": "2027-11-27",
+    "valor": null
+   },
+   {
+    "ini": "2027-11-28",
+    "fim": "2027-11-30",
+    "valor": null
+   }
+  ],
+  [
+   {
+    "ini": "2027-12-01",
+    "fim": "2027-12-04",
+    "valor": null
+   },
+   {
+    "ini": "2027-12-05",
+    "fim": "2027-12-11",
+    "valor": null
+   },
+   {
+    "ini": "2027-12-12",
+    "fim": "2027-12-18",
+    "valor": null
+   },
+   {
+    "ini": "2027-12-19",
+    "fim": "2027-12-25",
+    "valor": null
+   },
+   {
+    "ini": "2027-12-26",
+    "fim": "2027-12-31",
+    "valor": null
+   }
+  ]
  ]
 };
 
@@ -679,6 +1029,38 @@ let tb='';Q.forEach((q,n)=>{q.forEach(i=>tb+=rowHTML(i));tb+=aggRow('Subtotal T'
 tb+=aggRow('TOTAL',M.map((_,i)=>i),'tot');
 document.getElementById('tbl').innerHTML=`<thead><tr><th>Mês</th><th>Fat. 2025</th><th>Fat. 2026</th><th>Cresc. 26x25</th><th>Base 2027</th><th>Origem</th>
  <th class="tmin">Mínima</th><th class="tbas">Básica</th><th class="tmas">Master</th><th class="tmega">Mega Master</th><th>Realizado 2027</th><th>Meta atingida</th></tr></thead><tbody>${tb}</tbody>`;
+
+
+/* ---- Acompanhamento semanal 2027 ---- */
+const S27=DATA.semanas27;
+let wkSel=(()=>{let k=0;S27.forEach((w,i)=>{if(w.some(x=>x.valor!=null))k=i});return k})();
+function renderWk(){
+  document.getElementById('wkChips').innerHTML=ABR.map((a,i)=>{const n=S27[i].filter(w=>w.valor!=null).length;
+    return `<span class="chip ${i===wkSel?'on':''} ${n?'':'dim'}" data-i="${i}">${a}${n?` · ${n}/${S27[i].length}`:''}</span>`}).join('');
+  document.querySelectorAll('#wkChips .chip').forEach(c=>c.onclick=()=>{wkSel=+c.dataset.i;renderWk()});
+  const m=M[wkSel],wk=S27[wkSel],dim=new Date(2027,wkSel+1,0).getDate();
+  const done=wk.filter(w=>w.valor!=null).length;
+  document.getElementById('wkTitle').textContent=m.mes+' 2027';
+  const st=document.getElementById('wkStatus');
+  st.textContent=done===wk.length?'Fechado':done?`Parcial · ${done} de ${wk.length} semanas`:'Em aberto';
+  st.className='tag '+(done===wk.length?'real':done?'par':'prj');
+  let acc=0;
+  const rows=wk.map((w,n)=>{const d=daysBetween(w.ini,w.fim);const ms=m.metas.map(v=>v*d/dim);
+    if(w.valor!=null)acc+=w.valor;
+    const h=w.valor!=null?tierHit(w.valor,ms):null;
+    return `<tr><td>Sem ${n+1}</td><td>${dLbl(w.ini)} a ${dLbl(w.fim)}</td><td>${d}</td>${ms.map(v=>`<td>${fmt(v)}</td>`).join('')}
+      <td><b>${w.valor!=null?fmt(w.valor):'<span class="muted">—</span>'}</b></td><td>${hitTxt(h)}</td>
+      <td>${w.valor!=null?fmt(acc):'<span class="muted">—</span>'}</td>
+      <td>${w.valor!=null?pct(acc/m.metas[0]):'<span class="muted">—</span>'}</td></tr>`}).join('');
+  const tot=sum(wk.map(w=>w.valor));
+  const hT=done===wk.length?tierHit(tot,m.metas):null;
+  document.getElementById('wkTbl').innerHTML=`<thead><tr><th>Semana</th><th>Período</th><th>Dias</th>
+   <th class="tmin">Mínima</th><th class="tbas">Básica</th><th class="tmas">Master</th><th class="tmega">Mega Master</th>
+   <th>Realizado</th><th>Meta atingida</th><th>Acumulado</th><th>% Mín. do mês</th></tr></thead><tbody>${rows}
+   <tr class="tot"><td>Total</td><td></td><td>${dim}</td>${m.metas.map(v=>`<td>${fmt(v)}</td>`).join('')}
+   <td>${done?fmt(tot):'—'}</td><td>${hitTxt(hT)}</td><td></td><td>${done?pct(tot/m.metas[0]):'—'}</td></tr></tbody>`;
+}
+renderWk();
 
 /* ================= GRÁFICOS ================= */
 Chart.defaults.font.family=getComputedStyle(document.body).fontFamily;
